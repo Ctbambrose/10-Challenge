@@ -7,6 +7,7 @@
     "skipLibCheck": true,
     "rootDir": "src",
     "outDir": "dist",
+    "types": ["body-parser", "qs", "range-parser", "send", "serve-static"],
 
     /* Bundler mode */
     "moduleResolution": "bundler",

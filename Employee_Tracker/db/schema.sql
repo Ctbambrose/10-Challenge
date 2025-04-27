@@ -1,12 +1,24 @@
-DROP DATABASE IF EXISTS books_db;
-CREATE DATABASE books_db;
+DROP DATABASE IF EXISTS employees_db;
+CREATE DATABASE employees_db;
 
-\c books_db;
+\c employees_db;
 
-CREATE TABLE favorite_books (
+CREATE TABLE department (
   id SERIAL PRIMARY KEY,
-  section INTEGER NOT NULL,
-  book_name VARCHAR(30) NOT NULL,
-  in_stock BOOLEAN,
-  quantity INTEGER NOT NULL
+  name VARCHAR(30) UNIQUE NOT NULL
+);
+
+CREATE TABLE role (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR(30) UNIQUE NOT NULL,
+  salary DECIMAL NOT NULL,
+  department_id INTEGER NOT NULL
+);
+
+CREATE TABLE employee (
+  id SERIAL PRIMARY KEY,
+  first_name VARCHAR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
+  role_id INTEGER NOT NULL,
+  manager_id INTEGER
 );
