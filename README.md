@@ -16,3 +16,6 @@ npm start
 
 After that the application will start and you will have multiple options to chose from: view all departments, viewe all roles, view all employees, add a department, add a role, add an emplyee, and update an employee. From this point you will just work through the application either viewing, adding or updating and exit once you are complete.
 
+
+![Screenshot of the application](./Employee_Tracker/challenge-10-app-screen-shot.png)
+
