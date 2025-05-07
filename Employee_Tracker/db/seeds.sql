@@ -1,14 +1,16 @@
 INSERT INTO department (name)
 VALUES ('CareAware Upgrade Center'),
        ('CareAware Consulting'),
-       ('CareAware UCIT');
+       ('CareAware UCIT')/*,
+       ('Direct Care')*/;
 
 
 INSERT INTO role (title, salary, department_id)
 VALUES ('Senior Director', 100000, 1),
        ('Director', 90000, 1),
        ('Consulting Manager', 75000, 2),
-       ('UCIT Manager', 75000, 2),
+       ('UCIT Manager', 75000, 3),
+       /*('Direct Care Manager', 75000, 4),*/
        ('Technology Architect', 70000, 3),
        ('Senior System Engineer', 60000, 3),
        ('System Engineer', 50000, 3),
