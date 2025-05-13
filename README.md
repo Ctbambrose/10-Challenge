@@ -19,3 +19,5 @@ After that the application will start and you will have multiple options to chos
 
 ![Screenshot of the application](./Employee_Tracker/challenge-10-app-screen-shot.png)
 
+
+[This is a video of the app working](https://drive.google.com/file/d/13z0J5jTv2dtWOyTM1rOrT4mKY-xrXJ0i/view?usp=sharing)
